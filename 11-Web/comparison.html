@@ -43,21 +43,44 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
                    
-                
-                <div class="col-md-4 ">
-                  <h2>Visualizations</h2>
-                  <hr>
-                      <div class= "col-md-6 col-sm-3">
-                          <img id ="pic1" src="LatvsTemp.png" alt="maxtemp" height="150" width="150"> 
-                      </div> 
-                      <div class= "col-md-6 col-sm-3">
-                          <img id ="pic2" src="lat_vs_humid.png" alt="humidity" height="150" width="150">
-                      </div> 
-                      <div class= "col-md-6 col-sm-3">
-                          <img id = "pic3" src="lat_vs_cloud.png" alt="cloudiness" height="150" width="150">
-                      </div> 
-                      <div class= "col-md-6 col-sm-3">
-                          <img id = "pic4" src="lat_vs_wind.png" alt="windspeed" height="150" width="150">
-                      </div> 
+                <div class="jumbotron">
+
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <div class="card mb-3">
+                              <div class="card-header">
+                                  <h4 class="card-title">Comparison: Latitude vs. X</h4>
+                              </div>
+                              <div class="card-body">
+                                  <div class="row">
+                                      <div class="col-sm-3 col-md-6 col-lg-3 text-center">
+                                          <a href="max_temp.html" class="card-link">
+                                              <img src="LatvsTemp.png" alt="Latitude vs. Max Temp" height="300" width="300"><br>
+                                              Latitude vs. Tempurature</a>
+                                      </div>
+                                      <div class="col-sm-3 col-md-6 col-lg-3 text-center">
+                                          <a href="windspeed.html" class="card-link">
+                                              <img src="lat_vs_wind.png" alt="Latitude vs. Wind Speed" height="300" width="300"><br>
+                                              Latitude vs. Wind Speed</a>
+                                      </div>
+          
+                                      <div class="col-sm-3 col-md-6 col-lg-3 text-center">
+                                          <a href="cloudiness.html" class="card-link">
+                                              <img src="lat_vs_cloud.png" alt="Latitude vs. Cloudiness" height="300" width="300"><br>
+                                              Latitude vs. Cloudiness</a>
+                                      </div>
+                                      <div class="col-sm-3 col-md-6 col-lg-3 text-center">
+                                          <a href="humidity.html" class="card-link">
+                                              <img src="lat_vs_humid.png" alt="Latitude vs. Wind Speed" height="300" width="300"><br>
+                                              Latitude vs. Humidity</a>
+                                      </div>
+                                  </div>
+          
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+               
           </body>
           </html>
